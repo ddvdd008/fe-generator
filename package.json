@@ -1,22 +1,35 @@
 {
-  "name": "fe-generator",
+  "name": "ddvdd-cli",
   "version": "1.0.0",
-  "description": "fe generator for react",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A simple CLI for creating your projects",
+  "bin": {
+    "ddvdd": "./bin/ddvdd"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ddvdd008/fe-generator.git"
   },
   "keywords": [
-    "generator"
+    "ddvdd",
+    "cli",
+    "es6",
+    "react",
+    "vue"
   ],
   "author": "ddvdd",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ddvdd008/fe-generator/issues"
   },
-  "homepage": "https://github.com/ddvdd008/fe-generator#readme"
+  "homepage": "https://github.com/ddvdd008/fe-generator#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cli-table": "^0.3.1",
+    "commander": "^2.9.0",
+    "download-git-repo": "^1.0.0",
+    "handlebars": "^4.0.8",
+    "inquirer": "^3.0.6",
+    "metalsmith": "^2.3.0",
+    "ora": "^1.2.0"
+  }
 }
