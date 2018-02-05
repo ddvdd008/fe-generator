@@ -1,0 +1,22 @@
+{
+  "name": "fe-generator",
+  "version": "1.0.0",
+  "description": "fe generator for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddvdd008/fe-generator.git"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "author": "ddvdd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddvdd008/fe-generator/issues"
+  },
+  "homepage": "https://github.com/ddvdd008/fe-generator#readme"
+}
