@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A simple CLI for creating your projects",
   "bin": {
-    "ddvdd": "./bin/ddvdd"
+    "ddvdd": "bin/ddvdd"
   },
   "repository": {
     "type": "git",
